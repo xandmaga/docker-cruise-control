@@ -1,6 +1,6 @@
 #!/bin/bash -xe
 
-. ./hooks/env
+. ./env
 
 docker build \
     --build-arg "SOURCE_REF=$GIT_SHA1" \
